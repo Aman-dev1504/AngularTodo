@@ -58,12 +58,15 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+        
+
           "configurations": {
             "production": {
               "browserTarget": "AngularTodo:build:production"
             },
             "development": {
               "browserTarget": "AngularTodo:build:development"
+             
             }
           },
           "defaultConfiguration": "development"
